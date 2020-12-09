@@ -1,0 +1,87 @@
+
+
+.bodybox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+
+.mainbox{
+    height: 50%;
+    width: 70%;
+    background-color: #c4c4c4;
+    border-radius: 15px;
+    margin: 2%;
+    position: relative;
+}
+
+#marginer{
+    margin: 3%;
+    position: relative;
+    z-index: 5;
+}
+
+.boxtxt{
+    font-size: 12px;
+    font-weight: 300;
+    margin: 10px;
+}
+
+h6 {
+    font-size: 6px;
+    margin: 10px;
+    font-weight: 100;
+
+
+}
+
+#move{
+    left: 100px;
+    top: -30px;
+}
+
+.profilecircle{
+    width: 20vw;
+    height: 20vw;
+    background-color:  #c4c4c4;
+    border-radius: 50%;
+    position: absolute;
+    left: 35vw;
+    top: 12vh;
+    z-index: 4
+
+    
+}
+
+#override2 {
+    font-size: 0.7rem;
+    background-color: #C7E7FF;
+    border-radius: 5rem;
+    border-color: #C7E7FF;
+    padding: 0.30rem 2rem;
+    color: black;
+    margin-top: 0.5rem;
+    z-index: 1;
+    position: relative;
+    left: 20vw;
+    top: -10vh
+  }
+  
+  #override2:after {
+    display:block;
+    content: '';
+    border-bottom: solid 2px #000000;
+    transform: scaleX(0);
+    transition: transform 150ms ease-in-out;
+  }
+  #override2:hover:after {
+    transform: scaleX(1);}
+    #override.fromRight:after{ transform-origin:100% 50%; }
+    #override.fromLeft:after{  transform-origin:  0% 50%; }
+  
+  

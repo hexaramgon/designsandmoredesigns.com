@@ -1,0 +1,231 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Manrope', sans-serif;
+}
+
+
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url('./imgs_svgs/backgrond.svg');
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 350px -85px; 
+}
+
+/* Main Page */ 
+
+.horiz{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+
+/* Card */ 
+
+#cardet {
+  width: 30%;
+  height: 75vh;
+  background: grey;
+  border-radius: 5px;
+  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.5s;
+  will-change: transform;
+  border: 5px solid  #c4c4c4;
+  margin: 3%;
+  background-color: #c4c4c4;
+}
+
+.card:hover {
+  box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.4);
+}
+
+.test{
+  width: 50%;
+  height: 20%;
+}
+
+.intro {
+  margin-top: 5%;
+  margin-left: 10%;
+  font-size: xx-small;
+}
+
+.foodtxt{
+  margin-top: 7.5%;
+  margin-left: 10%;
+  font-weight: bolder;
+}
+
+.vert{
+  width: 33%;
+}
+
+.bluecirc {
+  height: 20vw;
+  width: 20vw;
+  background-color: #C7E7FF;
+  border-radius: 50%;
+  margin-left: 5%;
+  margin-top: 25%;
+}
+
+.pic{
+  border-radius: 50%;
+  height: 20vw;
+  width: 20vw;
+  object-fit: cover;
+}
+
+.parentthree {
+position: relative;
+
+}
+
+.childthree {
+  position: absolute;
+  top: 150px;
+  left: 30px;
+}
+
+.temp{
+  height: 100%;
+  width: 100%;
+}
+
+.temp2{
+  height: 100%;
+  width: 100%;
+}
+
+#h4-fix{
+  font-size: 12px;
+  font-weight: 200;
+  text-align: center;
+  background-color:  #c4c4c4;
+  margin-top: 10px;
+}
+
+#h2-fix{
+  text-align: center;
+  background-color:  #c4c4c4;
+  font-weight: 700;
+}
+
+hr{
+  background-color:  #c4c4c4;
+  width: 75%;
+  font-weight: 900;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fade-in 1s;
+  animation-delay: 2.5s;
+  -webkit-animation-fill-mode: forwards;
+
+}
+
+@keyframes fade-in{
+  from { opacity:0;}
+  to {opacity:1;}
+}
+  
+  @-webkit-keyframes fade-in{
+  from {opacity:0;}
+  to {opacity:1;}
+}
+
+.error-pic{
+  width: 80vw;
+  height: 90vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.fade-in-left1 {
+  animation: fade-in-left1 2s;
+  -webkit-animation-fill-mode: forwards;
+
+}
+
+@keyframes fade-in-left1{
+  0%   {left:0px; top:0px;}
+  25%  { left:-800px; top:0px;}
+  26%  { opacity: 0;}
+  50%  { left:0px; top:0px;}
+  100% {opacity: 1;}
+}
+  
+  @-webkit-keyframes fade-in-left1{
+    0%   {left:0px; top:0px;}
+    25%  { left:-800px; top:0px;}
+    26%  { opacity: 0;}
+    50%  { left:0px; top:0px;}
+    100% {opacity: 1;}
+}
+
+.fade-in-left0 {
+  animation: fade-in-left0 2s;
+  -webkit-animation-fill-mode: forwards;
+
+}
+
+@keyframes fade-in-left0{
+  0%   {left:0px; top:0px;}
+  25%  { left:-800px; top:0px;}
+  26%  { opacity: 0;}
+  50%  { left:0px; top:0px;}
+  100% {opacity: 1;}
+}
+  
+  @-webkit-keyframes fade-in-left0{
+    0%   {left:0px; top:0px;}
+    25%  { left:-800px; top:0px;}
+    26%  { opacity: 0;}
+    50%  { left:0px; top:0px;}
+    100% {opacity: 1;}
+}
+
+.fade-in-left2 {
+  animation: fade-in-left2 2s;
+  -webkit-animation-fill-mode: forwards;
+
+}
+
+@keyframes fade-in-left2{
+  0%   {left:0px; top:0px;}
+  25%  { left:-800px; top:0px;}
+  26%  { opacity: 0;}
+  50%  { left:0px; top:0px;}
+  100% {opacity: 1;}
+}
+  
+  @-webkit-keyframes fade-in-left2{
+    0%   {left:0px; top:0px;}
+    25%  { left:-800px; top:0px;}
+    26%  { opacity: 0;}
+    50%  { left:0px; top:0px; opacity: 0;}
+    100% {opacity: 1;}
+  }
+
+    

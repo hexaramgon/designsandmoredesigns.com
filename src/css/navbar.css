@@ -1,0 +1,37 @@
+#overyde{
+    font-size: 7px;
+    padding: 0px;
+    margin: 0px;
+    height: calc(1.5em + .5rem);
+    width: 30vw;
+  }
+
+.colorcorrect{
+    background-color: #c4c4c4;
+}
+
+#over {
+    padding: 0.05rem 1rem;
+    justify-content: space-between;
+}
+
+svg{
+    margin-left: 1rem;
+    width: 0.7rem;
+    height: 0.7rem;
+}
+
+.rightpart{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    height: 14px;
+}
+
+.linktag {
+    padding: 0px 0px;
+    color: black;
+}
+
