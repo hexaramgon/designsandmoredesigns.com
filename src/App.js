@@ -14,6 +14,7 @@ import Preferences from './pages/Preferences';
 const App = () => {
   return (
     <h1>hiiiiiiiiii Jennifer</h1>
+
   //   <Router>
   //     <Switch>
   //       <Route path="/SignIn">
